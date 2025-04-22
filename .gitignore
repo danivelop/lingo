@@ -1,0 +1,63 @@
+# 의존성
+node_modules/
+.pnpm-store/
+.npm/
+
+# 빌드 및 출력 디렉토리
+dist/
+build/
+out/
+
+# 환경 변수 파일
+.env
+.env.*
+!.env.example
+
+# 로그 파일
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 캐시 및 임시 파일
+.temp/
+.cache/
+.eslintcache
+.stylelintcache
+.DS_Store
+*.tsbuildinfo
+
+# 에디터 및 IDE 파일
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.project
+.classpath
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 테스트 커버리지
+coverage/
+
+# NestJS 관련
+.nestjs_repl_history
+
+# Vite 관련
+*.local
+
+# TypeScript 관련
+*.tsbuildinfo
+
+# 프론트엔드 빌드 결과물
+frontend/dist/
+
+# 백엔드 빌드 결과물
+backend/dist/ 

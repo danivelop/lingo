@@ -1,0 +1,32 @@
+# 의존성
+/node_modules
+
+# 빌드 결과물
+/dist
+/dist-ssr
+
+# 로컬 환경 변수
+*.local
+
+# 로그 파일
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 에디터 관련
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 테스트 관련
+/coverage 
